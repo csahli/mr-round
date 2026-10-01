@@ -348,47 +348,47 @@ const SITE_CONFIG = {
       // ── Real photos from Scopes Boxing Ottawa ─────────────
       {
         type:    "photo",
-        src:     "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlm0Jjije56pKuWWFd5sIQexYY3lLMmYJeeJ7dGIjQtUGrNcZEUzt3UBnBpesTOpXFMu1wTituxCVB1KkPE5unRDRe2StcEdg3RE_pFY67sbgAJYotR6n5kyWqsG42WA50W_h9BvFR-VN6L=s1600",
+        src:     "assets/gm-ring.jpg",
         caption: "Inside Scopes Boxing — the ring, wood floors, heavy bags and custom lighting",
       },
       {
         type:    "photo",
-        src:     "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnBasQWY8qYfGcjHmGX78-7XaQffpO-tEgeiwA4wReFzm7XtM24mpoeeEAMcP2AoZ4PDXPj1-A5vyy0Hof1W_zqL6ErXm6Xfsm7aUN0dS120P2f8Rh2VxEu9pI0t6RCAf58ih5xr7IKWOs=s1600",
+        src:     "assets/gm-padwork.jpg",
         caption: "Head coach guiding a boxer through 1-on-1 pad work",
       },
       {
         type:    "photo",
-        src:     "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn9yf4cHNYtcrAye2Cg3QVhcYrqiGwfvprsoinX0QmMSV01Ybql9WqK9wmT7VZgVAcfsqFYN4dCnW7VNSEwq-WqKK2zWZ0eaIX2oMasFSMJFNJgkYREBc_-1nSERSvAt4y19sv1EW-9yEsT=s1600",
+        src:     "assets/gm-sparring.jpg",
         caption: "Live sparring inside the official Scopes Boxing regulation ring",
       },
       {
         type:    "photo",
-        src:     "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkQzJzytHQetI5FgGEP7i7zvvu9Jty-_1acDmhcXnWbesbm-jSVDrf8A97S5gyxygR450Qoq2hiw_h3DxbTlhOdOgmS_2qPabt5XXbbpz1AXxzVnXyw8Ze66yNK0ZRgO8CGynmjeKryxqo_=s1600",
+        src:     "assets/gm-group-class.jpg",
         caption: "Group class in action — footwork drills and bag combos",
       },
       {
         type:    "photo",
-        src:     "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWncliwQclxfoyGJo1QJ7ouetTLspADCKAT2t3mRDm3vdpJAInYLtUs9TvLbYVFaL8HhG59yaEou9TFeuLVH952oNrrMdulfcCwyAiI9qv64evq9hXhKjOyy-imMT3WItINz8FZwbbbfi0Fh=s1600",
+        src:     "assets/gm-heavy-bag.jpg",
         caption: "Member hitting the heavy bag — warm gym lights, total focus",
       },
       {
         type:    "photo",
-        src:     "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnjXRVYKCpTG2HoO1vZBOejr0OVXDs2Joa5TpYe4ou9kceYb05BleQM9GqG7Xe0FauJPCP2X3dmynDRIJEvLhZDZN4Z-bOIPm97InBDe4nAXLY4NexuDr1naDxhcgJ350gIWVBJHr3cXiLW=s1600",
+        src:     "assets/gm-speed-bags.jpg",
         caption: "Speed bags and reflex double-end bags — the precision training zone",
       },
       {
         type:    "photo",
-        src:     "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmENCQ-r-epQ2pL9DVLfczRSGSE_Zm88oCeK-4xAVSH1RV_cNGNGIRcvfEEgeterVjuBfpjHKrKP8TPq0BAQl22j09liFzdkf-z-ZFiHMCFtiMhXJXWulCcwmvHdVKqKQD_kpWNDjSwT3o=s1600",
+        src:     "assets/gm-blue-zone.jpg",
         caption: "Blue-lit bag zone and artistic gym space — Scopes has its own culture",
       },
       {
         type:    "photo",
-        src:     "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlzROflLJrIUw4O1TF5srun9_KP7OGSkyY-W2q7kLi5CJBouhb2IydPLIKyPbWvIKkGAxDPUF-NzqzWe77V7S3EPJdyivO_xBkO0XfAl4ypykYX_OBGGzaqyEbdvgjElyO23jQ2JyNvizOQ=s1600",
+        src:     "assets/gm-gloves.jpg",
         caption: "Gloves and gear — every detail at Scopes Boxing is intentional",
       },
       {
         type:    "photo",
-        src:     "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWntv_wHn1oRdzTvbFr29BsaNWANfHJCdi6M8XPa78e2qv77t7E0Zbpo_q6zY7LX86ZyD6yku6BIv28_qYdiF1XFqX29oYxehPpvJ83MUx6B7SHFap1jmzpD3Ri5GszZk8CJToeBmRMYQ6hu=s1600",
+        src:     "assets/gm-exterior.jpg",
         caption: "Exterior mural — \"Health and Fitness in Every Punch\" • Ottawa, Ontario, Canada",
       },
       // ── Keep the official method poster ──────────────────
