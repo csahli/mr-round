@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2026"/>
+      <stop offset="100%" stop-color="#121316"/>
+    </linearGradient>
+    <radialGradient id="aura2" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#C8102E" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#121316" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="skinTone2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#73472C"/>
+      <stop offset="100%" stop-color="#54301A"/>
+    </linearGradient>
+    <linearGradient id="dreadGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1F1A17"/>
+      <stop offset="100%" stop-color="#120E0C"/>
+    </linearGradient>
+    <linearGradient id="shirtGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#242832"/>
+      <stop offset="100%" stop-color="#171920"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="480" rx="16" fill="url(#bgGrad2)"/>
+  <circle cx="200" cy="190" r="140" fill="url(#aura2)"/>
+
+  <!-- Subtle Zen Halo Circle -->
+  <circle cx="200" cy="180" r="115" fill="none" stroke="#D4AF37" stroke-width="2" stroke-dasharray="8 6" opacity="0.4"/>
+
+  <!-- Body / Powerful Muscular Shoulders -->
+  <path d="M75,480 C75,370 125,350 160,345 L240,345 C275,350 325,370 325,480 Z" fill="url(#shirtGrad2)"/>
+  <!-- Traps & Neck Opening -->
+  <path d="M160,345 C160,375 240,375 240,345 Z" fill="#73472C"/>
+  <path d="M155,345 C168,382 232,382 245,345" fill="none" stroke="#D4AF37" stroke-width="4"/>
+
+  <!-- Powerful Neck -->
+  <rect x="170" y="260" width="60" height="95" rx="10" fill="url(#skinTone2)"/>
+  <path d="M170,310 C185,328 215,328 230,310 Z" fill="#422513" opacity="0.5"/>
+
+  <!-- Head / Face (Slightly squarer jaw, muscular) -->
+  <path d="M142,160 C142,105 258,105 258,160 C258,225 246,285 200,285 C154,285 142,225 142,160 Z" fill="url(#skinTone2)"/>
+
+  <!-- Short Dreadlocks (Stylized Textured Bunches) -->
+  <!-- Top & Side Locks -->
+  <g fill="url(#dreadGrad)" stroke="#2B211C" stroke-width="1.5">
+    <!-- Center top dreads -->
+    <path d="M192,115 C190,75 210,75 208,115 Z"/>
+    <path d="M178,120 C170,80 190,80 185,120 Z"/>
+    <path d="M210,120 C220,80 200,80 215,120 Z"/>
+    <!-- Left dreads -->
+    <path d="M162,130 C150,90 172,90 170,130 Z"/>
+    <path d="M150,145 C135,105 155,105 156,145 Z"/>
+    <path d="M140,165 C125,125 145,125 146,165 Z"/>
+    <path d="M136,188 C122,150 140,150 142,188 Z"/>
+    <!-- Right dreads -->
+    <path d="M225,130 C240,90 220,90 222,130 Z"/>
+    <path d="M240,145 C255,105 235,105 236,145 Z"/>
+    <path d="M250,165 C265,125 245,125 246,165 Z"/>
+    <path d="M255,188 C268,150 250,150 248,188 Z"/>
+    <!-- Back crown dread volume -->
+    <ellipse cx="200" cy="110" rx="55" ry="25"/>
+  </g>
+
+  <!-- Short Neat Beard -->
+  <path d="M148,195 C148,266 166,290 200,290 C234,290 252,266 252,195 C252,225 242,280 200,280 C158,280 148,225 148,195 Z" fill="#1C1410"/>
+  <!-- Mustache -->
+  <path d="M178,235 C188,230 212,230 222,235 C218,242 182,242 178,235 Z" fill="#1C1410"/>
+
+  <!-- Warm, Open, Friendly Zen Smile -->
+  <path d="M175,242 C184,262 216,262 225,242" fill="none" stroke="#2B160C" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M178,243 C186,257 214,257 222,243 Z" fill="#FFFFFF"/>
+
+  <!-- Nose (Broad, Friendly) -->
+  <path d="M192,205 C186,218 190,222 200,223 C210,222 214,218 208,205" fill="none" stroke="#422513" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Peaceful Zen Eyes (Smiling joyful crescents) -->
+  <path d="M164,180 C170,170 182,170 188,180" fill="none" stroke="#120E0C" stroke-width="4" stroke-linecap="round"/>
+  <path d="M212,180 C218,170 230,170 236,180" fill="none" stroke="#120E0C" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Eyebrows -->
+  <path d="M162,168 C170,163 182,163 189,169" fill="none" stroke="#1C1410" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M211,169 C218,163 230,163 238,168" fill="none" stroke="#1C1410" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Ears -->
+  <circle cx="142" cy="192" r="14" fill="#633920"/>
+  <circle cx="258" cy="192" r="14" fill="#633920"/>
+
+  <!-- Badge at Bottom: Zen & Smiling Assistant Coach -->
+  <g transform="translate(95, 435)">
+    <rect width="210" height="32" rx="16" fill="rgba(200,16,46,0.15)" stroke="#C8102E" stroke-width="1.5"/>
+    <text x="105" y="21" fill="#FF4D6A" font-family="'Inter', sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1">ASSISTANT COACH • ZEN &amp; CALM</text>
+  </g>
+</svg>

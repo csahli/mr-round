@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO: title & description are set by site-config.js -->
+  <title>Mister Round | Premium Training & Fitness Programs</title>
+  <meta name="description" content="Mister Round offers elite training and fitness programs including Scopes Boxing — real coaching, real technique, real results." />
+  <meta property="og:title" content="Mister Round | Premium Training & Fitness Programs" />
+  <meta property="og:description" content="Real boxing training and fitness programs for all levels. Join Scopes Boxing and discover what you're made of." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700;1,800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ────────────────────────────────────────── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" id="nav-logo-link">
+        <img src="" alt="" class="nav-logo-img" id="nav-logo-img" />
+        <span class="nav-logo-text" id="nav-brand-name"></span>
+      </a>
+      <ul class="nav-links" id="nav-links"></ul>
+      <div class="nav-actions">
+        <a href="" class="btn btn-primary" id="nav-cta-btn"></a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── MOBILE MENU ────────────────────────────────────── -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul id="mobile-links"></ul>
+  </div>
+
+  <!-- ── HERO ──────────────────────────────────────────── -->
+  <header class="hero" id="hero">
+    <div class="hero-slider" id="hero-slider"></div>
+    <div class="hero-controls">
+      <button class="hero-arrow hero-prev" id="hero-prev" aria-label="Previous slide">
+        <svg width="20" height="20" viewBox="0 0 16 16" fill="none"><path d="M3.31066 8.75001L9.03033 14.4697L7.96967 15.5303L0.439339 8.00001L7.96967 0.469676L9.03033 1.53034L3.31066 7.25001L15.5 7.25L15.5 8.75L3.31066 8.75001Z" fill="currentColor"/></svg>
+      </button>
+      <div class="hero-dots" id="hero-dots"></div>
+      <button class="hero-arrow hero-next" id="hero-next" aria-label="Next slide">
+        <svg width="20" height="20" viewBox="0 0 16 16" fill="none"><path d="M12.6893 7.25L6.96967 1.53033L8.03033 0.469666L15.5607 8L8.03033 15.5303L6.96967 14.4697L12.6893 8.75H0.5V7.25H12.6893Z" fill="currentColor"/></svg>
+      </button>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>SCROLL</span>
+    </div>
+  </header>
+
+  <!-- ── STATS ─────────────────────────────────────────── -->
+  <section class="stats-strip" id="stats-strip">
+    <div class="stats-inner" id="stats-inner"></div>
+  </section>
+
+  <!-- ── ABOUT ─────────────────────────────────────────── -->
+  <section class="about section" id="about"></section>
+
+  <!-- ── PROGRAMS ──────────────────────────────────────── -->
+  <section class="programs section" id="programs"></section>
+
+  <!-- ── SCOPES BOXING ─────────────────────────────────── -->
+  <section class="scopes section" id="scopes"></section>
+
+  <!-- ── HOW IT WORKS ──────────────────────────────────── -->
+  <section class="how-it-works section" id="how-it-works"></section>
+
+  <!-- ── COACHES ───────────────────────────────────────── -->
+  <section class="coaches section" id="coaches"></section>
+
+  <!-- ── GALLERY ───────────────────────────────────────── -->
+  <section class="gallery-section section" id="gallery"></section>
+
+  <!-- ── CALLOUT ───────────────────────────────────────── -->
+  <section class="callout-section" id="callout-section"></section>
+
+  <!-- ── TESTIMONIALS ──────────────────────────────────── -->
+  <section class="testimonials section" id="testimonials"></section>
+
+  <!-- ── FAQ ───────────────────────────────────────────── -->
+  <section class="faq section" id="faq"></section>
+
+  <!-- ── CONTACT ───────────────────────────────────────── -->
+  <section class="contact section" id="contact"></section>
+
+  <!-- ── FOOTER ────────────────────────────────────────── -->
+  <footer class="footer" id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid" id="footer-grid"></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-inner" id="footer-bottom-inner"></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── GALLERY LIGHTBOX ───────────────────────────────── -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Media viewer">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">✕</button>
+    <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous">
+      <svg width="24" height="24" viewBox="0 0 16 16" fill="none"><path d="M3.31066 8.75001L9.03033 14.4697L7.96967 15.5303L0.439339 8.00001L7.96967 0.469676L9.03033 1.53034L3.31066 7.25001L15.5 7.25L15.5 8.75L3.31066 8.75001Z" fill="currentColor"/></svg>
+    </button>
+    <div class="lightbox-content" id="lightbox-content"></div>
+    <button class="lightbox-next" id="lightbox-next" aria-label="Next">
+      <svg width="24" height="24" viewBox="0 0 16 16" fill="none"><path d="M12.6893 7.25L6.96967 1.53033L8.03033 0.469666L15.5607 8L8.03033 15.5303L6.96967 14.4697L12.6893 8.75H0.5V7.25H12.6893Z" fill="currentColor"/></svg>
+    </button>
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+    <div class="lightbox-counter" id="lightbox-counter"></div>
+  </div>
+  <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+
+  <!-- ── TOAST ─────────────────────────────────────────── -->
+  <div class="toast" id="toast">
+    <span class="toast-icon">✓</span>
+    <span id="toast-msg"></span>
+  </div>
+
+  <!-- ── CONFIG + SCRIPTS ───────────────────────────────── -->
+  <!--
+    EDIT SITE CONTENT IN: site-config.js
+    All text, images, videos, colors, and settings live there.
+  -->
+  <script src="site-config.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

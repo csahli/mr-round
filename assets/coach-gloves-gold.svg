@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="gloveBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2026"/>
+      <stop offset="100%" stop-color="#121316"/>
+    </linearGradient>
+
+    <!-- Warm Gold Aura Glow -->
+    <radialGradient id="gloveAura2" cx="50%" cy="48%" r="55%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#C8102E" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#121316" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Black Leather Gradients -->
+    <radialGradient id="leatherBlackMain" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3A3D46"/>
+      <stop offset="35%" stop-color="#24262E"/>
+      <stop offset="80%" stop-color="#15171C"/>
+      <stop offset="100%" stop-color="#0B0C0E"/>
+    </radialGradient>
+
+    <radialGradient id="leatherBlackThumb" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#3D404A"/>
+      <stop offset="45%" stop-color="#262830"/>
+      <stop offset="100%" stop-color="#0F1014"/>
+    </radialGradient>
+
+    <linearGradient id="blackSheen" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="30%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="65%" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="goldTrim2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2C6"/>
+      <stop offset="40%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8F6E15"/>
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="gloveShadow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.75"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="480" rx="16" fill="url(#gloveBg2)"/>
+  <circle cx="200" cy="230" r="160" fill="url(#gloveAura2)"/>
+
+  <!-- Subtle Concentric Ring -->
+  <circle cx="200" cy="230" r="150" fill="none" stroke="rgba(212,175,55,0.2)" stroke-width="1.5" stroke-dasharray="6 8"/>
+
+  <!-- Left Glove (Background Angle) -->
+  <g filter="url(#gloveShadow2)" transform="translate(130, 215) rotate(-18) scale(0.85)">
+    <!-- Glove Main Body -->
+    <path d="M-50,-110 C-10,-135 70,-115 95,-55 C115,-5 105,65 65,115 C45,140 10,150 -30,140 C-75,130 -90,85 -95,30 C-100,-35 -80,-90 -50,-110 Z" fill="#1C1E24"/>
+    <!-- Highlight -->
+    <path d="M-30,-90 C0,-110 50,-95 70,-50 C85,-10 75,40 50,80" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Cuff -->
+    <path d="M-55,100 L35,120 L25,185 L-65,165 Z" fill="#13151A"/>
+    <path d="M-60,130 L30,150" stroke="url(#goldTrim2)" stroke-width="4"/>
+  </g>
+
+  <!-- Primary Foreground Boxing Glove (Black & Gold) -->
+  <g filter="url(#gloveShadow2)" transform="translate(205, 235) rotate(12)">
+
+    <!-- Main Knuckle Dome / Palm Body -->
+    <path d="M-75,-125 C-30,-155 75,-135 110,-65 C135,-10 125,75 75,135 C50,165 5,175 -40,160 C-95,145 -115,95 -120,35 C-125,-40 -105,-105 -75,-125 Z" fill="url(#leatherBlackMain)"/>
+
+    <!-- Leather Surface Sheen & Volume Highlights -->
+    <path d="M-55,-110 C-15,-130 55,-115 85,-60 C105,-15 100,50 65,105 C45,130 10,140 -25,130 C-65,120 -85,80 -90,30 C-95,-30 -80,-85 -55,-110 Z" fill="url(#blackSheen)"/>
+
+    <path d="M-40,-115 C0,-130 50,-115 75,-70 C90,-35 85,20 65,65" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Padded Thumb Contour -->
+    <g>
+      <path d="M-115,20 C-135,10 -150,-25 -135,-65 C-120,-105 -75,-105 -65,-75 C-55,-50 -60,-20 -65,10 C-75,35 -95,40 -115,20 Z" fill="url(#leatherBlackThumb)"/>
+      <path d="M-125,-15 C-135,-40 -125,-75 -95,-80 C-80,-80 -70,-60 -75,-40" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="4" stroke-linecap="round"/>
+      <!-- Gold Stitching along thumb -->
+      <path d="M-115,20 C-95,-5 -80,-35 -70,-75" fill="none" stroke="url(#goldTrim2)" stroke-width="2.5" stroke-dasharray="4 3"/>
+    </g>
+
+    <!-- Glove Cuff / Wrist Support -->
+    <g transform="translate(0, 20)">
+      <!-- Cuff Base -->
+      <path d="M-75,115 L60,140 L45,215 L-85,190 Z" fill="#14161C"/>
+      <!-- Gold Trim Lines -->
+      <path d="M-75,115 L60,140" stroke="url(#goldTrim2)" stroke-width="5"/>
+      <path d="M-85,190 L45,215" stroke="url(#goldTrim2)" stroke-width="5"/>
+
+      <!-- Wrist Strap / Gold Strap Wrap -->
+      <rect x="-80" y="135" width="135" height="42" rx="4" transform="rotate(10 -12 156)" fill="url(#goldTrim2)" stroke="#785910" stroke-width="2"/>
+
+      <!-- Embossed Brand Emblem on Wrist -->
+      <g transform="translate(-10, 160) rotate(10)">
+        <rect x="-42" y="-14" width="84" height="28" rx="5" fill="#14161C" stroke="#2D303A" stroke-width="1.5"/>
+        <text x="0" y="5" fill="url(#goldTrim2)" font-family="'Barlow Condensed', sans-serif" font-size="13" font-weight="800" text-anchor="middle" letter-spacing="1">SCOPES</text>
+      </g>
+    </g>
+
+    <!-- Knuckle Gold Accent Stitches -->
+    <path d="M-15,-70 C15,-80 45,-70 65,-40" fill="none" stroke="url(#goldTrim2)" stroke-width="2" stroke-dasharray="4 3"/>
+  </g>
+
+  <!-- Bottom Tag Badge -->
+  <g transform="translate(100, 432)">
+    <rect width="200" height="34" rx="17" fill="rgba(212,175,55,0.18)" stroke="#D4AF37" stroke-width="1.5"/>
+    <text x="100" y="22" fill="#D4AF37" font-family="'Barlow Condensed', sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="2">BLACK &amp; GOLD • PRO SPEC</text>
+  </g>
+</svg>
